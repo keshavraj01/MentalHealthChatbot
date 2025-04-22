@@ -1,0 +1,26 @@
+# Node
+node_modules/
+*.log
+.env
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.db
+venv/
+*.env
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+
+
+models/
+.ipynb_checkpoints/
