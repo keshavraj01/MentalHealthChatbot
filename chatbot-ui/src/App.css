@@ -29,8 +29,21 @@ body {
 } */
 
 /* Sidebar */
-.sidebar {
+/* .sidebar {
   width: 260px;
+  background-color: #1f2937;
+  color: white;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 95vh; /* Full height */
   background-color: #1f2937;
   color: white;
   padding: 1.5rem 1rem;
@@ -39,14 +52,6 @@ body {
   justify-content: space-between;
 }
 
-/* .sidebar {
-  width: 260px;
-  min-width: 260px;
-  background-color: #1f2937;
-  color: white;
-  display: flex;
-  flex-direction: column;
-} */
 
 .sidebar h2 {
   font-size: 1.3rem;
@@ -156,6 +161,7 @@ body {
   background-color: #4F46E5;
   height: 150%;
   overflow: hidden;
+  margin-left: 280px;
 }
 
 
@@ -245,7 +251,9 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   margin-top: 2rem;
+  overflow-y: auto;
 }
+
 
 .mood-chart h2 {
   font-size: 1.5rem;
